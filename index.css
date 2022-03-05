@@ -1,0 +1,111 @@
+body { 
+    background-image:url('UIUC-ECE-07.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: #E84A27;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    display: block;
+}
+
+/* 
+orange = E84A27
+blue = 13294b
+/
+
+
+a {
+    text-decoration: none;
+    color: #E84A27;
+    cursor: pointer;
+}
+
+a:hover {
+    color: #E84A27;
+}
+
+.card {
+    display: block;
+    margin: auto;
+    margin-top: 5%;
+    width: 25%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #13294b5e;
+    padding: 15px;
+    background-color: #13294b67;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+@media only screen and (max-width: 1668px){
+    .card {
+        width: 30%;
+    }
+}
+
+@media only screen and (max-width: 1024px){
+    .card {
+        width: 500px;
+    }
+}
+
+/ @media only screen and (max-width: 448px){
+    .card {
+        width: 100%;
+        padding: 3%;
+        margin-top: 10%;
+    }
+
+} */
+
+
+
+.card img {
+    margin: auto;
+    margin-top: 15px;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+.card h1 {
+    font-size: 50px;
+    letter-spacing: 2px;
+    font-weight: 100;
+    margin: 10px 0px;
+}
+
+.card h5 {
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.card p {
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.card ul {
+    margin: 10px 0px;
+    padding: 0px;
+}
+
+.card li {
+    display: inline-block;
+    margin: 6px;
+    list-style: none;
+}
+
+.card li a {
+    color: white;
+    text-decoration: none;
+    font-size: 50px;
+    transition: all ease-in-out 250;
+}
+
+.card li a:hover {
+    color: #E84A27;
+}
